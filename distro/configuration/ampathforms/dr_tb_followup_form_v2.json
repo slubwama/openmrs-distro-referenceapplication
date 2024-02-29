@@ -1,5 +1,6 @@
 {
   "name": "DR TB Followup Form",
+  "published": "yes",
   "pages": [
     {
       "label": "Adverse Events",
@@ -71,14 +72,6 @@
                         "label": "Hepatotoxicity"
                       },
                       {
-                        "concept": "123188AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Vestibular"
-                      },
-                      {
-                        "label": "Ototoxicity",
-                        "concept": "131103AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-                      },
-                      {
                         "concept": "119242AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                         "label": "Gastrointestinal Disorder"
                       },
@@ -97,14 +90,6 @@
                       {
                         "concept": "160179AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                         "label": "Dermatologic"
-                      },
-                      {
-                        "concept": "117321AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "Hypothyroid"
-                      },
-                      {
-                        "concept": "9d913f9a-0a69-4dd6-a033-fedcbc0a3204",
-                        "label": "Hematological"
                       }
                     ]
                   },
@@ -122,23 +107,23 @@
                     "answers": [
                       {
                         "concept": "dcde4a81-30ab-102d-86b0-7a5022ba4115",
-                        "label": "0 - No side effects"
+                        "label": "No side effects"
                       },
                       {
                         "concept": "1498AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "1 - Grade 1 (mild)"
+                        "label": "Grade 1 (mild)"
                       },
                       {
                         "concept": "1499AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "2 - Grade 2 (moderate)"
+                        "label": "Grade 2 (moderate)"
                       },
                       {
                         "concept": "1500AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                        "label": "3 - Grade 3 (severe)"
+                        "label": "Grade 3 (severe)"
                       },
                       {
                         "concept": "dca2882a-30ab-102d-86b0-7a5022ba4115",
-                        "label": "4 - Grade 4  life threatening)"
+                        "label": "Grade 4  (life threatening)"
                       }
                     ]
                   },
@@ -152,10 +137,10 @@
       ]
     },
     {
-      "label": "Medication",
+      "label": "Drug Side Effects",
       "sections": [
         {
-          "label": "Medication",
+          "label": "Side Effects",
           "isExpanded": "true",
           "questions": [
             {
@@ -163,7 +148,7 @@
               "label": "Drug Side Effects",
               "id": "drug-side-effects",
               "questionOptions": {
-                "concept": "",
+                "concept": "a202ecd2-3ae8-4b67-8c4f-779a6ce9d7ff",
                 "rendering": "repeating"
               },
               "questions": [
@@ -176,7 +161,116 @@
                     "rendering": "select",
                     "concept": "1282AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "conceptMappings": [],
-                    "answers": []
+                    "answers": [
+                      {
+                        "concept": "78280AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "ISONIAZID"
+                      },
+                      {
+                        "concept": "dc87f047-30ab-102d-86b0-7a5022ba4115",
+                        "label": "RIFAMPICIN"
+                      },
+                      {
+                        "concept": "75948AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "ETHAMBUTOL"
+                      },
+                      {
+                        "concept": "82900AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "PYRAZINAMIDE"
+                      },
+                      {
+                        "concept": "84360AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "STREPTOMYCIN"
+                      },
+                      {
+                        "concept": "72794AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "CAPREOMYCIN"
+                      },
+                      {
+                        "concept": "78385AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "KANAMYCIN"
+                      },
+                      {
+                        "concept": "71060AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "AMIKACIN"
+                      },
+                      {
+                        "concept": "73449AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "CIPROFLOXACIN"
+                      },
+                      {
+                        "concept": "81022AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "OFLOXACIN"
+                      },
+                      {
+                        "concept": "78788AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "LEVOFLOXACIN"
+                      },
+                      {
+                        "concept": "dcddab4c-30ab-102d-86b0-7a5022ba4115",
+                        "label": "FATIGUE"
+                      },
+                      {
+                        "concept": "80133AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "MOXIFLOXACIN"
+                      },
+                      {
+                        "concept": "75976AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "ETHIONAMIDE"
+                      },
+                      {
+                        "concept": "74123AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "CYCLOSERINE"
+                      },
+                      {
+                        "concept": "81457AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "P-AMINOSALICYLIC ACID"
+                      },
+                      {
+                        "concept": "82772AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "PROTHIONAMIDE"
+                      },
+                      {
+                        "concept": "dcde2606-30ab-102d-86b0-7a5022ba4115",
+                        "label": "INSOMNIA"
+                      },
+                      {
+                        "concept": "160019AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "THIOACETAZONE"
+                      },
+                      {
+                        "concept": "dc7912c7-30ab-102d-86b0-7a5022ba4115",
+                        "label": "AMOXICILLIN AND CLAVULANIC ACID"
+                      },
+                      {
+                        "concept": "73498AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "CLARITHROMYCIN"
+                      },
+                      {
+                        "concept": "83352AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "RIFABUTIN"
+                      },
+                      {
+                        "concept": "73581AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "CLOFAZIMINE"
+                      },
+                      {
+                        "concept": "84836AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "TERIZIDONE"
+                      },
+                      {
+                        "concept": "160020AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "Viomycin"
+                      },
+                      {
+                        "concept": "82912AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "PYRIDOXINE"
+                      },
+                      {
+                        "concept": "76835AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "label": "GATIFLOXACIN"
+                      }
+                    ]
                   },
                   "validators": []
                 },
@@ -325,41 +419,6 @@
                     ]
                   },
                   "validators": []
-                },
-                {
-                  "label": "Outcome",
-                  "type": "obs",
-                  "required": false,
-                  "id": "tb-treatment-outcome",
-                  "questionOptions": {
-                    "rendering": "radio",
-                    "concept": "e44c8c4c-db50-4d1e-9d6e-092d3b31cfd6",
-                    "conceptMappings": [],
-                    "answers": [
-                      {
-                        "concept": "0dbbcf1c-cfdb-42f5-9e4b-d2aec064674d",
-                        "label": "Stop TB Treatment"
-                      },
-                      {
-                        "concept": "b0a1d8af-f3f9-4c69-a7aa-f822b038334c",
-                        "label": "Confirmed Drug Resistant"
-                      }
-                    ]
-                  },
-                  "validators": []
-                },
-                {
-                  "label": "Doctor's Review",
-                  "type": "obs",
-                  "required": false,
-                  "id": "doctor-review",
-                  "questionOptions": {
-                    "rendering": "textarea",
-                    "concept": "3993bf94-efdc-44d0-bffb-db4a04642500",
-                    "conceptMappings": [],
-                    "answers": []
-                  },
-                  "validators": []
                 }
               ],
               "validators": []
@@ -371,46 +430,6 @@
     {
       "label": "Clinical Review/Outcome",
       "sections": [
-        {
-          "label": "Appointment",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "label": "On Scheduled Appointment",
-              "type": "obs",
-              "required": false,
-              "id": "on-scheduled-appointment",
-              "questionOptions": {
-                "rendering": "radio",
-                "concept": "dcda9857-30ab-102d-86b0-7a5022ba4115",
-                "conceptMappings": [],
-                "answers": [
-                  {
-                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Yes"
-                  },
-                  {
-                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "No"
-                  }
-                ]
-              }
-            },
-            {
-              "label": "Next Appointment Date",
-              "type": "encounterDatetime",
-              "required": false,
-              "id": "next-appointment-date",
-              "questionOptions": {
-                "rendering": "date",
-                "concept": "dcac04cf-30ab-102d-86b0-7a5022ba4115",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            }
-          ]
-        },
         {
           "label": "Drug Adherence",
           "isExpanded": "true",
@@ -434,8 +453,8 @@
               "required": false,
               "id": "percentage-doses-MDR-TB-drugs-missed",
               "questionOptions": {
-                "rendering": "text",
-                "concept": "180b439a-ebef-4b8e-9019-ab28332163b6",
+                "rendering": "number",
+                "concept": "b50e0e43-79b9-4461-b7f8-5c0863d63682",
                 "conceptMappings": [],
                 "answers": []
               },
@@ -449,64 +468,6 @@
               "questionOptions": {
                 "rendering": "number",
                 "concept": "dc9df4c6-5284-45ef-b811-779e0c2d478d",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            },
-            {
-              "label": " Date Discharged",
-              "type": "encounterDatetime",
-              "required": false,
-              "id": " date-discharged",
-              "questionOptions": {
-                "rendering": "date",
-                "concept": "ff31a419-0eb1-45fc-920a-77b4a3481e00",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            }
-          ]
-        },
-        {
-          "label": "Clinical Review Notes",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "label": "Key Findings",
-              "type": "obs",
-              "required": false,
-              "id": "key-findings",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "180b439a-ebef-4b8e-9019-ab28332163b6",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            },
-            {
-              "label": "Plan of Action",
-              "type": "obs",
-              "required": false,
-              "id": "plan-of-action",
-              "questionOptions": {
-                "rendering": "textarea",
-                "concept": "3993bf94-efdc-44d0-bffb-db4a04642500",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            },
-            {
-              "label": "Provider",
-              "type": "obs",
-              "required": false,
-              "id": "provider",
-              "questionOptions": {
-                "rendering": "select",
-                "concept": "",
                 "conceptMappings": [],
                 "answers": []
               },
@@ -551,70 +512,8 @@
                   {
                     "concept": "160034AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Died"
-                  },
-                  {
-                    "concept": "dd27a783-30ab-102d-86b0-7a5022ba4115",
-                    "label": "Transferred Out"
                   }
                 ]
-              },
-              "validators": []
-            },
-            {
-              "label": "Date",
-              "type": "encounterDatetime",
-              "required": false,
-              "id": "treatment-outcome-date",
-              "questionOptions": {
-                "rendering": "date",
-                "concept": "dfbf41ad-44de-48db-b653-54273789c0c6",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            }
-          ]
-        },
-        {
-          "label": "Transfer Out",
-          "isExpanded": "true",
-          "questions": [
-            {
-              "label": "Health Facility",
-              "type": "obs",
-              "required": false,
-              "id": "health-facility",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "dce015bb-30ab-102d-86b0-7a5022ba4115",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            },
-            {
-              "label": "District",
-              "type": "obs",
-              "required": false,
-              "id": "district-of-facility",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "ef8aed6d-a64c-4a17-9745-c305f99c658b",
-                "conceptMappings": [],
-                "answers": []
-              },
-              "validators": []
-            },
-            {
-              "label": "Phone Contact of receiving Health Unit",
-              "type": "obs",
-              "required": false,
-              "id": "phone-contact-of -receiving-health-unit",
-              "questionOptions": {
-                "rendering": "text",
-                "concept": "159635AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "conceptMappings": [],
-                "answers": []
               },
               "validators": []
             }
@@ -624,9 +523,9 @@
     }
   ],
   "processor": "EncounterFormProcessor",
-  "encounterType": "455bad1f-5e97-4ee9-9558-ff1df8808732",
+  "encounterType": "41f8609d-e13b-4dff-8379-47ac5876512e",
   "referencedForms": [],
-  "uuid": "cf6bb1c1-6fcd-4cb6-b0c9-28a5d334c562",
+  "uuid": "14468477-dfe7-48e7-affb-82d1dfa9603d",
   "description": "This form captures return visits/followup data of the DR TB Treatment program",
-  "version": "1.0"
+  "version": "3.0"
 }
